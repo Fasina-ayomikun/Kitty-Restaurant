@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty || Restaurant</title>
+    <script src="https://kit.fontawesome.com/0f386651af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/chevron-left?s=solid">
+    
+</head>
+<body>
+    <header  class="menu-home">
+       
+
+            <nav id="navbar" >
+                <div class="nav-center ">
+                    <div class="nav-header">
+                        <h3 class="logo">Kitty</h3>
+                        <button class="nav-toggle">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="links-container">
+                        <ul class="links">
+                            <li><a href="index.html" class="about-scroll-link">home</a></li>
+                            <li><a href="about.html" class="about-scroll-link">about</a></li>
+                                <li><a href="#home-menu" class="about-scroll-link" id="home-menu">menu</a></li>
+                                <li><a href="event.html" class="about-scroll-link">event</a></li>
+                                <li><a href="#" class="about-scroll-link reservation-link">reservation</a></li>
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </nav>
+                <div class="header-text">
+
+                    <div class="text-container ">
+                       
+                            <h1>Kitty's Menu</h1>
+                            <h3>we serve the best dishes</h3>
+                    
+                    </div>
+                </div>
+        
+              
+      
+    </header>
+
+    <section>
+        <section class="menu">
+
+            
+            <div class="menu-container">
+                <h1>Our menu</h1>
+                <div class="menu-btns">
+      
+                </div>
+                <div class="menu-info-container">
+
+                </div>
+            </div>
+        </section>
+       
+        <footer class="footer">
+            <div class="footer-container">
+                <p> &copy;kitty Restaurant <span class="date"></span>. all rights reserved. </p>
+                <div class="social-icons">
+                    <a href="#" class="icon">
+                        <i class="fa-brands fa-facebook-square"></i>
+
+                    </a>
+                    <a href="#" class="icon">
+
+                        <i class="fa-brands fa-instagram-square" ></i>
+                    </a>
+                    <a href="#" class="icon">
+
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        
+                        <i class="fa-brands fa-twitter-square "></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <a href="#home-menu" class="scroll-link top-link">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <div class="pop-up">
+            <div class="popup-container">
+                <div class="close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="login-details">
+                    <form action="" class="form">
+                        
+                    <input type="email" placeholder="Email or username" class="input">
+                    <input type="password" placeholder="Password" class="input">
+                    <button type="submit" class="submit-btn">Log In</button>
+                    </form>
+                    <div class="forgot-pass">
+                         <h5>Forgot Password?</h5>
+                         <p>Don't have an account? <span class="sign-up">Sign-up</span></p>
+                    </div>
+                </div>
+                
+                <button class="reservation-btn">
+                    <a href="#">make a reservation</a>
+                </button>
+            </div>
+        </div>
+        <div class="signup-pop">
+            <div class="signup-pop-container">
+                <div class="signup-close-btn ">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                
+                <div class="signup-details">
+                    <form action="" class="form">
+                        
+                        <input type="text" placeholder="Firstname" class="signup-input">
+                        <input type="text" placeholder="Lastname" class="signup-input">
+                        <input type="email" placeholder="Email or username" class="signup-input">
+                        <input type="password" placeholder="Password" class="signup-input">
+                        <input type="password" placeholder="Confirm password" class="signup-input">
+                        
+                        <button type="submit" class=" signup-btn">sign up</button>
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="reservation-page">
+            <div class="reserve-page-container">
+                <i class="fa-solid fa-xmark reserve-close-btn"></i>
+                <input type="text" placeholder="Firstname" class="reserve-input firstname">
+                <input type="text" placeholder="Lastname" class="reserve-input lastname">
+                <div class="location-btn-container">
+
+                    <input type="text" placeholder="Location" class="reserve-input location-button ">
+                    <i class="fa-solid fa-chevron-down" id="branch"></i>
+                    <div class="show-location">
+                        <p class="reserve-location">Texas Branch</p>
+                        <p class="reserve-location">Califonia Branch</p>
+                        <p class="reserve-location">New York Branch</p>
+                    </div>
+                </div>
+                <input type="email" placeholder="Email or Username" class="reserve-input email">
+                <input type="number"  placeholder="No of guest" class="reserve-input no-of-guest">
+                <input type="date" placeholder="dd/mm" class="reserve-input date">
+                <button class="reserve-submit-btn">Submit</button>
+            </div>
+        </div>
+    </section>
+     <script src="app.js"></script>
+</body>
